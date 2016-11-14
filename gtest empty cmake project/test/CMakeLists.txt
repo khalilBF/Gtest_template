@@ -1,0 +1,2 @@
+add_executable(some_class_test some_class_test.cc)
+target_link_libraries(some_class_test ${GTEST_LIBRARIES} some_library)
